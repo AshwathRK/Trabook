@@ -52,8 +52,9 @@
 
             .flight {
                 position: absolute;
-                width: 35%;
-                left: 116%
+                width: 28%;
+                left: 34vw;
+                top: 6vw;
             }
         }
 

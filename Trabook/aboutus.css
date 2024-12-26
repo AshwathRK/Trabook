@@ -48,8 +48,16 @@ body{
                 width: 58%;
                 justify-content: flex-start;
                 align-items: flex-end;
+                position: relative;
                 .comments{
                     width: 100%;
+                }
+                .flight{
+                    position: absolute;
+                    width: 23%;
+                    height: auto;
+                    top: 3vw;
+                    left: 30vw;
                 }
             }
         }

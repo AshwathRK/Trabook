@@ -1,0 +1,53 @@
+:root {
+    --BG-COLOR-HS: #FEFCFB;
+    --BLACK: #000000;
+    --FONT_COLOR: #222222;
+    --BTN_ORANGE: #FA7436;
+    --BTN_SEC_ORANGE: #FD8D3A;
+    --FC-SHAD: #666666;
+    --BG-TODO: #F7F8FC;
+}
+
+.flex{
+    display: flex;
+}
+
+body{
+    .blog{
+        width: 100%;
+        aspect-ratio: 2.385/1;
+        background-color: var(--BG-COLOR-HS);
+        display: flex;
+        justify-content: center;
+        .blog_container{
+            height: 100%;
+            width: 65%;
+            flex-direction: column;
+            align-items: center;
+            .txt_con{
+                height: 23%;
+                width: 51%;
+                align-items: flex-end;
+                .main_txt{
+                    width: 100%;
+                    font-size: 2.5vw;
+                    .glow{
+                        color: var(--BTN_ORANGE);
+                        display: inline;
+                    }
+                }
+            }
+            
+        }
+        .blog_info{
+            padding: 5% 0;
+            .blog_details{
+                .info{
+                    .blog_img{
+                        
+                    }
+                }
+            }
+        }
+    }
+}

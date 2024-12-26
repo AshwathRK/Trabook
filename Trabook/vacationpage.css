@@ -51,11 +51,11 @@ body {
                 }
 
                 .tree {
-                    height: 80px;
-                    width: auto;
+                    height: auto;
+                    width: 10%;
                     position: absolute;
-                    left: 78%;
-                    top: 30%;
+                    left: 47vw;
+                    top: 2vw;
                 }
             }
 
